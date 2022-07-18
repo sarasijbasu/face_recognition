@@ -1,0 +1,6 @@
+#Extract_class_names_from_dir
+classes = []
+root_dir = 
+for items in glob.glob(root_dir+"\*"):
+    if os.path.isdir(items) == True:
+        classes_dir.append(items.split(os.sep)[-1])
